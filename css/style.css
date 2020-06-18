@@ -1,4 +1,4 @@
-body {
+body {font-size: x-large;
   line-height: 1.5;
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
@@ -51,7 +51,7 @@ nav.navbar {
 }
 
 nav.navbar .navbar-nav li.active {
-	color: #00a8ff !important;
+	color: black !important;
 }
 
 .site-logo{
@@ -70,11 +70,40 @@ nav.navbar .navbar-nav li.active {
   padding-top: 80%;
 }
 .o-s{
-  background: wheat;
+  background: #fff6d6;
 }
 #headd{
   text-align: center;
 }
 .navbar-toggler{
 color: black;
+}
+.container-fluid{
+  background: green;
+  padding: 20px;
+}
+.text-uppercase{
+  color: white;
+}
+.list-unstyled{
+  color: black;
+}
+
+.card0{
+  background-color: #fff6d6;
+  padding: 0;
+  margin: 5px;
+}
+.container1{
+  padding: 40px;
+  background-color: #fff6d6;
+}
+.container2{
+  padding: 40px;
+  background-color: white;
+}
+.top-pad{
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
