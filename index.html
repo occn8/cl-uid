@@ -9,6 +9,9 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>Uganda Gorilla Adventures</title>
 </head>
 
@@ -21,31 +24,79 @@
                 <aside id="text-13" class="widget inner-padding widget_text">
                     <div class="textwidget">
                         <p><i class="fas fa-map-marked"></i> Plot 56, 57 Lugard Ave, Entebbe | <i
-                                class="fas fa-phone"></i> +256 775 207 450   <i class="fas fa-facebook"></i><i class="fas fa-twitter"></i><i class="fas fa-instagram"></i></p>
+                                class="fas fa-phone"></i> +256 775 207 450 <i class="fab fa-facebook"></i><i
+                                class="fab fa-twitter"></i><i class="fab fa-instagram"></i></p>
                     </div>
                 </aside>
             </div>
 
         </div>
-        <nav class="navbar">
+        <nav class="navbar navbar-expand-md">
             <div class="container">
-                <div class="site-logo">
-                    <a href="#" title="Wild Discoveries Safaris | Gorilla Safaris"
-                        rel="home">
-                        <img class="header-image" height="50px" alt="Wild Discoveries Safaris | Gorilla Safaris"
-                            src="img/cropped-wds-logox2.png"
-                            title="Wild Discoveries Safaris | Gorilla Safaris">
+                <div class="navbar-brand site-logo">
+                    <a href="#" title="Wild Discoveries Safaris | Gorilla Safaris" rel="home">
+                        <img class="header-image" height="40px" alt="Wild Discoveries Safaris | Gorilla Safaris"
+                            src="img/cropped-wds-logox2.png" title="Wild Discoveries Safaris | Gorilla Safaris">
                     </a>
                 </div>
+                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right main-nav">
-                        <li><a href="#">ABOUT US</a></li>
-                        <li><a href="#">OUR SAFARIS</a></li>
-                        <li><a href="#">DESTINATIONS</a></li>
-                        <li><a href="#">CONTACT US</a></li>
-                        <li><a href="#">PAY ONLINE</a></li>
-                      <span class="fas fa-search"></span>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown">ABOUT US</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">About wild safari Discoveries uganda</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">The conservation foundation</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Our fleet</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown">OUR SAFARIS</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Tailor-made-tours</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">long safaris</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">fly-in safaris</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Schedule tour</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Budget safaris</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Daily tours</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Terms & conditions</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown">DESTINATIONS</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">About uganda</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">kenya safaris</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Rwanda safaris</a>
+
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="#">CONTACT US</a></li>
+                        <li class="nav-item"><a href="#">PAY ONLINE</a></li>
+                        <li class="nav-item"><a href="#"><span class="fas fa-search"></span></a></li>
+
                     </ul>
                 </div>
             </div>
@@ -87,15 +138,190 @@
         <div class="container">
             <div>
                 <h3 id="headd well">Uganda Gorilla Adventures, Chimp Trekking Safaris & Murchison Falls</h3><br>
-               <p>  Mountain Gorillas are commonly found in the 3 states of Uganda, Rwanda and Congo and from the current study is Uganda shares 51% of the world Gorilla population. With our expertise, we shall plan for you a Gorilla trip to Uganda or Rwanda which best fits your Budget. Start planning your next gorilla trekking safari with our help. We have a couple of planned gorilla trekking safaris and wildlife safaris but they may not interest you and you may want some help. Yes we can give you all the help you need. Let’s get started! </p>
+                <p> Mountain Gorillas are commonly found in the 3 states of Uganda, Rwanda and Congo and from the
+                    current study is Uganda shares 51% of the world Gorilla population. With our expertise, we shall
+                    plan for you a Gorilla trip to Uganda or Rwanda which best fits your Budget. Start planning your
+                    next gorilla trekking safari with our help. We have a couple of planned gorilla trekking safaris and
+                    wildlife safaris but they may not interest you and you may want some help. Yes we can give you all
+                    the help you need. Let’s get started! </p>
                 <p>"Neither is there anyone who loves, pursues or desires pain itself because it is pain" Lorem ipsum
                     dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua</p><br>
-                    <h3 id="headd well">Gorilla tracking Adventure and Safaris</h3><br>
+                <h3 id="headd well">Gorilla tracking Adventure and Safaris</h3><br>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <div class="card col-sm" style="width: 18rem;">
+                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-sm" style="width: 18rem;">
+                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-sm" style="width: 18rem;">
+                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card col-sm" style="width: 18rem;">
+                <img src="img/img1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
     </section>
 
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="card-link">Card link</a>
+            <a href="#" class="card-link">Another link</a>
+        </div>
+    </div>
+    <footer class="page-footer font-small green pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">CONTACT ADDRESS</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Plot 56/57, Lugard Avenue</a>
+                        </li>
+                        <li>
+                            <a href="#!">P.O. Box 22587 Kampala</a>
+                        </li>
+                        <li>
+                            <a href="#!">Entebbe UWEC Zoo</a>
+                        </li>
+                        <li>
+                            <a href="#!">Entebbe, Wakiso District – Uganda</a>
+                        </li>
+                        <li>
+                            <a href="#!">Phone: +256 77 520 7450</a>
+                        </li>
+                        <li>
+                            <a href="#!">info@wilddiscoveriessafaris.com</a>
+                        </li>
+                        <li>
+                            <a href="#!">www.wilddiscoveriessafaris.com</a>
+                        </li>
+                        <li>
+                            <a href="#!">Open: Monday To Sunday</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0">
+                    <h5 class=" text-uppercase">TOP SAFARI DESTINATIONS</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Kidepo Valley National Park</a>
+                        </li>
+                        <li>
+                            <a href="#!">Lake Mburo National Park</a>
+                        </li>
+                        <li>
+                            <a href="#!">Murchison Falls National Park</a>
+                        </li>
+                        <li>
+                            <a href="#!"> Ziwa Rhino Sanctuary</a>
+                        </li>
+                        <li>
+                            <a href="#!">Kibale Forest National Park</a>
+                        </li>
+                        <li>
+                            <a href="#!">Ngamba Chimpanzee Sanctuary</a>
+                        </li>
+                        <li>
+                            <a href="#!">Queen Elizabeth National Park</a>
+                        </li>
+                        <li>
+                            <a href="#!">Rwenzori National Park</a>
+                        </li>
+                        <li>
+                            <a href="#!">Bwindi Impenetrable Forest N.P</a>
+                        </li>
+                        <li>
+                            <a href="#!">Mgahinga Gorilla National Park</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">BEST OF RWANDA</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">1 Day Gorilla Tracking Tour | Rwanda</a>
+                        </li>
+                        <li>
+                            <a href="#!">2 Days Gorilla Trekking Rwanda Safari</a>
+                        </li>
+                        <li>
+                            <a href="#!">4 Days Golden Monkeys & Gorilla Tracking Rwanda</a>
+                        </li>
+                        <li>
+                            <a href="#!">6 Days Mt. Gorilla Trekking Safari</a>
+                        </li>
+                        <li>
+                            <a href="#!">7 Days Rwanda Primates | Gorillas & Chimps</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0">
+                    <h5 class=" text-uppercase">BEST OF MAGICAL KENYA</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">10 Days Best of Kenya Wildlife and Masai Mara</a>
+                        </li>
+                        <li>
+                            <a href="#!">10 DAY MASAI MARA & KENYAN COAST SAFAR</a>
+                        </li>
+                        <li>
+                            <a href="#!">
+                                8 DAY ABERDARE, LAKE NAKURU & MASAI MARA SAFARI</a>
+                        </li>
+                        <li>
+                            <a href="#!">5 DAYS LAKE NAKURU NATIONAL PARK AND MASAI MARA SAFARI</a>
+                        </li>
+                        <li>
+                            <a href="#!">3 Days Masai Mara Kenya Safari</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">
+            © 2020 Wild Discoveries Safaris | Gorilla Safaris • Designed by Telesconet
+        </div>
+    </footer>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
@@ -103,6 +329,7 @@
     <script src="js/wow.js"></script>
     <script src="js/custom.js"></script>
     <script src="contactform/contactform.js"></script>
+
 </body>
 
 </html>
