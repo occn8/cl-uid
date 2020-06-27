@@ -1,9 +1,11 @@
 
 # __UserInterfaceDesign__
 ___
-## Wild Discoveries Safaris Website dup
+## [Wild Discoveries Safaris Website dup](https://occn8.github.io/cl-uid/)
 
 ![logo](./favicon.ico)
+
+### Check out [Website](https://occn8.github.io/cl-uid/)
 
 ### Created By
 
